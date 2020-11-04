@@ -1,5 +1,5 @@
 FROM ajit5144/ubuntu-tcat-x2-1
-COPY ./target/*.war /usr/local/tomcat/webapps
+COPY AVNCommunication-1.0.war /usr/local/tomcat/webapps
 EXPOSE 8080
 EXPOSE 8081
 EXPOSE 5432 
